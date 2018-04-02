@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href = "battleship.css">
+    <title>Battleship</title>
+</head>
+<body id = "body">
+    <a href = "../index.html"><button>Back to menu</button></a>
+    <div class = "centertable">
+        <div id = "titleGUI">
+            <h1>Battleship!</h1>
+            <h2>Do you have what it takes to sink my 2 ships? Click on a tile to begin!</h2>
+            <h2 id = "turnsLeft"></h2>
+        </div>
+        <table border="1" align="right" id = "score">
+            <tr>
+                <td>Turn</td>
+                <td>What happened</td>
+            </tr>
+        </table>
+        <table border="1" align="center" id = "board"></table>
+        <div id = "lose-modal" class = "modal">
+            <div class= "modal-content">
+                <h1>You lose!</h1>
+                <div class = "alignbutton">
+                    <a href = "battleship.html" class = "returnbutton">Try again</a>
+                </div>
+            </div>
+        </div>
+        <div id = "win-modal" class = "modal">
+            <div class= "modal-content">
+                <h1>You win!</h1>
+                <div class = "alignbutton">
+                    <a href = "battleship.html" class = "returnbutton">Try again</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="battleship.js"></script>
+</body>
+</html>

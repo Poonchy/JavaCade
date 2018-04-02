@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "simon.css">
+    <title>Simon</title>
+</head>
+<body id = "body">
+    <a href = "../index.html"><button>Back to menu</button></a>
+    <div id = "title">
+        <h1 id = "whosturn" style = "text-align: center; color: white;">Welcome to Simon! click "Begin game!" to start.</h1>
+        <h2 id = "whatturn" style = "text-align: center; color: white;"></h2>
+        <button id = "beginGame" align = "center" onclick = "beginGame()">Begin game!</button>
+    </div>
+    <br>
+    <table align = "center" border = "1" id = "simonBoard">
+        <tr>
+            <td id = "blue" class = "square canHover"></td>
+            <td id = "green" class = "square canHover"></td>
+        </tr>
+        <tr>
+            <td id = "red" class = "square canHover"></td>
+            <td id = "yellow" class = "square canHover"></td>
+        </tr>
+    </table>
+    <script src="simon.js"></script>
+</body>
+</html>

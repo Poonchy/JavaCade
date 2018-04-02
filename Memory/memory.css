@@ -1,0 +1,122 @@
+.cards {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+}
+
+.cards:hover {
+    background-color: black;
+}
+
+.matched {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+}
+
+#body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+}
+
+.alignbutton {
+    text-align: center;
+    align-items: center;
+}
+
+.returnbutton {
+    display: inline-block !important;
+    text-align: center;
+    display: block;
+    width: 215px;
+    height: 46px;
+    font-size: 40px;
+    background: rgb(43, 84, 94);
+    padding: 10px;
+    border-radius: 5px;
+    color: white !important;
+    font-weight: bold;
+    -webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;  
+}
+
+.modal-content {
+    border: 0 !important;
+    position: fixed !important;
+    bottom: 0;
+    background-color: green;
+    align-items: center !important;
+    color: white;
+    font-size: 80px;
+    width: 60%;
+    height: 40%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    overflow: auto;
+    padding: 0 !important;
+    text-align: center;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s;
+}
+
+.modal-content h1 {
+    margin: 0 !important;
+}
+
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@media only screen and (max-width: 870px) {
+    .cards {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+    }
+
+    .matched {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+    }
+}

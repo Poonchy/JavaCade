@@ -1,0 +1,36 @@
+#body {
+    text-align: center;
+    background-color: darkgreen;
+    align-items: center;
+    color: white;
+}
+
+#boardState {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 100%;
+}
+
+#cardsDisp {
+    height: 300px;
+    width: 200px;
+}
+
+#cards {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 100%;
+}
+
+#score {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 100px;
+}
+
+table {
+    height: 500px;
+}

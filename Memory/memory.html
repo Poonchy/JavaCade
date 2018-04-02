@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" href = "memory.css">
+    <title>Memory Game</title>
+</head>
+<body id = "body">
+    <a href = "../index.html"><button>Back to menu</button></a>
+    <h1>Memory game!</h1>
+    <button id = "easy" onclick="easyMode()">Easy</button>
+    <button id = "difficult" onclick="hardMode()">Difficult</button>
+    <table align = "center" border = "1" id = "cards"></table>
+    <div id = "easy-win-modal" class = "modal">
+        <div class= "modal-content">
+            <h1>You win!</h1>
+            <div class = "alignbutton">
+                <a href = "memory.html" class = "returnbutton">Replay</a>
+            </div>
+        </div>
+    </div>
+    <div id = "hard-win-modal" class = "modal">
+            <div class= "modal-content">
+                <h1>You win!</h1>
+                <div class = "alignbutton">
+                    <a href = "memory.html" class = "returnbutton">Replay</a>
+                </div>
+            </div>
+        </div>
+    <script src="memory.js"></script>
+</body>
+</html>

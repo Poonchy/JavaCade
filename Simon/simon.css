@@ -1,0 +1,54 @@
+#body {
+    text-align: center;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+#simonBoard td {
+    width: 200px;
+    height: 200px;
+}
+
+#red {
+    background-color: rgb(125,0,0);
+}
+
+#blue {
+    background-color: rgb(0, 0, 125);
+}
+
+#green {
+    background-color: rgb(0,125,0);
+}
+
+#yellow {
+    background-color: rgb(125, 125, 0);
+}
+
+#red.canHover:hover{
+    background-color: rgb(255, 0, 0) !important;
+}
+
+#blue.canHover:hover {
+    background-color: rgb(0, 0, 255) !important;
+}
+
+#green.canHover:hover {
+    background-color: rgb(0, 255, 0) !important;
+}
+
+#yellow.canHover:hover {
+    background-color: rgb(255, 255, 0) !important;
+}
+
+.canHover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 870px) {
+    #simonBoard td {
+        width: 150px;
+        height: 150px;
+    }
+}
