@@ -5,6 +5,20 @@
     color: white;
 }
 
+.supercont {
+    color: white !important;
+    font-size: 20px;
+    border: 2px dashed white;
+}
+
 a{
-    color: white;
+    color: white !important;
+}
+
+.col-4 {
+    margin: 10px;
+}
+
+.row {
+    height: 100px !important;
 }

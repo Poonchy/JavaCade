@@ -93,8 +93,7 @@ function hardMode() {
     colors = ["black","red","blue","green","purple","brown","orange","teal","yellow","gold","black","red","blue","green","purple","brown","orange","teal","yellow","gold","purple","green","red","orange"];
     
     cardsUsed = [];
-    
-    console.log(colors.length);
+
     
     alphabetcount = alphabet.length * 2;
     
@@ -151,7 +150,6 @@ function hardMode() {
                     secondLetter = userSecond.charAt(secondLetterIndex - 1);
                     this.innerHTML = secondLetter;
                     if (userFirst == userSecond) {
-                        console.log(firstGuess);
                         firstGuess.setAttribute("class", "matched " + firstLetter);
                         secondGuess.setAttribute("class", "matched " + secondLetter);
                         userFirst = "";
@@ -217,8 +215,7 @@ function easyMode() {
     colors = ["black","red","blue","green","purple","brown","orange","teal","yellow","gold","black","red","blue","green","purple","brown","orange","teal","yellow","gold","purple","green","red","orange"];
     
     cardsUsed = [];
-    
-    console.log(colors.length);
+
     
     alphabetcount = alphabet.length;
     
@@ -271,7 +268,6 @@ function easyMode() {
                     if (userSecond == "matched " + secondLetter) {
                         userSecond = "";
                     } else if(userFirst == userSecond) {
-                        console.log(firstGuess);
                         firstGuess.setAttribute("class", "matched " + firstLetter);
                         secondGuess.setAttribute("class", "matched " + secondLetter);
                         userFirst = "";
